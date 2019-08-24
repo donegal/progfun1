@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/gpatterson/workspace/funsets/project/}funsets-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/gpatterson/workspace/progfun1/funsets/project/}funsets-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#funsets-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -11457,19 +11457,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.7!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2003ms :: artifacts dl 59ms[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT compile produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT runtime produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT test produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT provided produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT optional produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT compile-internal produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT runtime-internal produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT test-internal produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT plugin produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT sources produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT docs produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT pom produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT scala-tool produced in /home/gpatterson/workspace/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2003ms resolve - 59ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1890ms :: artifacts dl 37ms[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT compile produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT runtime produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT test produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT provided produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT optional produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT compile-internal produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT runtime-internal produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT test-internal produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT plugin produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT sources produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT docs produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT pom produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#funsets-build;0.1-SNAPSHOT scala-tool produced in /home/gpatterson/workspace/progfun1/funsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-funsets-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1890ms resolve - 37ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -138,23 +138,24 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   // again. our degenerative case is to include the element
   def union(that: TweetSet): TweetSet = left.union(right.union(that)).incl(elem)
 
-  // this one gave me one heck of a time. that's why you see procedural code.
   def mostRetweeted: Tweet = {
+    def maxTweet(t1: Tweet, t2: Tweet): Tweet = if (t1.retweets > t2.retweets) t1 else t2
     val leftMost = if (left.isInstanceOf[Empty]) elem else maxTweet(elem, left.mostRetweeted)
     val rightMost = if (right.isInstanceOf[Empty]) elem else maxTweet(elem, right.mostRetweeted)
     maxTweet(leftMost, rightMost)
   }
 
-  def maxTweet(t1: Tweet, t2: Tweet): Tweet = if (t1.retweets > t2.retweets) t1 else t2
-
   // we need to return a list. create an empty list and add the
   // most retweeted to it. then remove that tweet from the list
   // and repeat. do this until the original list is empty.
-  //
-  // the first attempt was generating a reverse list because I
-  // was calling Cons going into the recursion. now we call Cons
-  // after the recursion so it will accumulate "backwards".
   def descendingByRetweet: TweetList = {
+    // the first attempt was generating a reverse list because I
+    // was calling Cons going into the recursion. now we call Cons
+    // after the recursion so it will accumulate "backwards".
+    // this was adding before the recursion call and was wrong:
+    //  acc(tweetSet.remove(most), new Cons(most, tweetList))
+    // we reversed it so Cons gets called after the recursion call.
+    //  new Cons(most, acc(tweetSet.remove(most), tweetList))
     def acc(tweetSet: TweetSet, tweetList: TweetList): TweetList = {
       if (tweetSet.isInstanceOf[Empty]) tweetList
       else {
